@@ -33,7 +33,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Co-design a change strategy to transform your team or organization to adapt to the reality of a fast-paced, digital world.
+            Co-design a Change Strategy to enable your team or organization to adapt to the reality of a fast-paced, digital world.
           </p>
         </a>
 
@@ -50,7 +50,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Agile Consulting and Expertise, whether you are just starting on your agile journey, or facing a challenge with adoption.
+            Agile Consulting and Expertise, whether you are just starting on your Agile journey, or facing a challenge with adoption.
           </p>
         </a>
 
@@ -67,7 +67,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Kanban KCP-certified consultants to help your organization increase it's level of Kanban maturity and optimize flow of value.
+            Kanban KCP-certified consultants to help your organization increase it&apos;s level of Kanban maturity and optimize flow of value.
           </p>
         </a>
 
@@ -84,7 +84,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Apply Lean Startup and Design Thinking practices to systematically discover what your customers need.
+            Apply Lean Startup and Design Thinking practices to systematically discover what your customers need and potential solutions.
           </p>
         </a>
       </div>
