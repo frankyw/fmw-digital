@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <h1 className='text-3xl text-center'>Digital Product and Transformation Consulting Services</h1>
-      <p className='font-extralight lg:mx-32'>We provide guidance on enabling your organization to rapidly bring the right products to market.</p>
+      <p className='font-extralight lg:mx-32'>We help enable your organization to rapidly bring the <em>right</em> products to market.</p>
 
         <div className="mb-32 grid text-center lg:mb-0 md:grid-cols-2 lg:grid-cols-4 lg:text-left">
         <a
@@ -83,7 +83,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Apply Lean Startup and Design Thinking practices to systematically discover what your customers need and potential solutions.
+            Apply Lean Startup and Design Thinking practices to systematically discover customers problems and potential solutions.
           </p>
         </a>
       </div>
