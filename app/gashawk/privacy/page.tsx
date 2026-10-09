@@ -210,14 +210,17 @@ export default function GasHawkPrivacy() {
           <article className="min-w-0 max-w-3xl space-y-14">
             <Section id="who-we-are">
               <p>
-                GasHawk is a community gas-price app for North America. It is operated by FMW Inc.
+                GasHawk is a community gas-price app for North America, covering Canada and the United
+                States. It is operated by FMW Inc.
                 (&ldquo;we&rdquo;, &ldquo;us&rdquo;). This policy explains what personal information the GasHawk
                 mobile app and its servers collect, why, and what you can do about it.
               </p>
               <dl className="grid gap-4 rounded-2xl bg-white p-6 ring-1 ring-ink/5 sm:grid-cols-2">
                 <div>
                   <dt className="text-xs font-medium uppercase tracking-[0.15em] text-ink/50">Effective date</dt>
-                  <dd className="mt-1 text-ink">[date]</dd>
+                  <dd className="mt-1 text-ink">
+                    <time dateTime="2026-10-09">Oct 9, 2026</time>
+                  </dd>
                 </div>
                 <div>
                   <dt className="text-xs font-medium uppercase tracking-[0.15em] text-ink/50">Privacy officer</dt>
@@ -230,8 +233,9 @@ export default function GasHawkPrivacy() {
                 </dd>
               </dl>
               <p>
-                We follow Canada&apos;s Personal Information Protection and Electronic Documents Act (PIPEDA)
-                and, for Québec residents, Québec&apos;s Law 25.
+                We follow the privacy laws that apply where our users live. These include Canada&apos;s Personal
+                Information Protection and Electronic Documents Act (PIPEDA), Québec&apos;s Law 25, and US state
+                privacy laws such as the California Consumer Privacy Act (CCPA).
               </p>
               <p className="border-l-2 border-signal pl-5 text-ink">
                 We do not sell your personal information, show ads, or track you across other apps or websites.
@@ -301,8 +305,8 @@ export default function GasHawkPrivacy() {
                 transfer to the new operator under this policy.
               </p>
               <p>
-                Some providers store data outside your province or Canada. It is then subject to the laws of
-                that country.
+                Some providers store data outside your province, state or country. It is then subject to the
+                laws of that place.
               </p>
             </Section>
 
@@ -360,12 +364,18 @@ export default function GasHawkPrivacy() {
                     are tied only to the install identifier; delete the app to reset it.
                   </>,
                   <>
-                    <Strong>Withdraw consent or complain.</Strong> Contact our privacy officer. If you are not
-                    satisfied, you can contact the Office of the Privacy Commissioner of Canada or, in Québec,
+                    <Strong>Withdraw consent or complain.</Strong> Contact our privacy officer. In Canada, if you are
+                    not satisfied, you can contact the Office of the Privacy Commissioner of Canada or, in Québec,
                     the Commission d&apos;accès à l&apos;information.
                   </>,
                 ]}
               />
+              <p>
+                <Strong>US residents.</Strong> Depending on your state, you may have the right to know what
+                personal information we hold, and to access, correct or delete it. You will not be treated
+                differently for using these rights. We do not sell your personal information or share it for
+                targeted advertising. To make a request, use the options above or email <Email />.
+              </p>
               <p>We answer requests within 30 days.</p>
             </Section>
 
