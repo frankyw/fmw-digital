@@ -57,7 +57,7 @@ const collected = [
     why: 'To run points and the leaderboard, and to weigh how reliable reports are',
   },
   {
-    info: 'Your region (province) and time-zone offset',
+    info: 'Your region (province or state) and time-zone offset',
     when: 'With nearby searches',
     why: 'To show local results and regional leaderboards',
   },
@@ -88,7 +88,7 @@ const providers = [
 
 const retention = [
   { data: 'Account, contributions and points', how: 'While your account exists' },
-  { data: 'Sign-in sessions', how: 'Expire after [30] days without use' },
+  { data: 'Sign-in sessions', how: 'Expire after 30 days without use' },
   {
     data: 'Prices you reported',
     how: 'Kept as community price history; unlinked from you when you delete your account',
@@ -97,8 +97,8 @@ const retention = [
     data: 'Reports made without an account',
     how: 'Kept as community price history, tied to the install identifier',
   },
-  { data: 'Error reports', how: '[90] days' },
-  { data: 'Backups', how: 'Deleted on their normal rotation, within [30] days' },
+  { data: 'Error reports', how: '90 days' },
+  { data: 'Backups', how: 'Deleted on their normal rotation, within 30 days' },
 ]
 
 function Section({ id, children }: { id: string; children: React.ReactNode }) {
@@ -391,7 +391,7 @@ export default function GasHawkPrivacy() {
 
             <Section id="children">
               <p>
-                GasHawk is not directed at children under [13], and we do not knowingly collect their
+                GasHawk is not directed at children under 13, and we do not knowingly collect their
                 information. If you believe a child has given us information, contact us and we will delete it.
               </p>
             </Section>
